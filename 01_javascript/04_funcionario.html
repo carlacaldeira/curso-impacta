@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionário</title>
+    <script>
+        function calcular(){
+            //ler o valor do primeiro campo e armazaná-lo em uma variável funcionario
+            let funcionario = document.getElementById("nomeFuncionario").value;
+            
+            //ler o valor do segundo campo e converter para float armazaná-lo em uma variável funcionario
+            let salario = parseFloat(document.getElementById("salario").value);
+            //definir uma variável chamada imposto, que correspoden a 15% do salário (salario * 15/100)
+            let imposto = salario * 15 /100;
+            //definir variável chamada mensagem contendo as informações fornecidas nas caixas de texto:
+            // Como exemplo, considere a saida hipotética
+            /*
+                Nome: Sergio
+                Salário: 5.000,00
+                Imposto: 750,00
+                Salario liquido: 4250,00
+
+            */
+            let mensagem = 'Nome = ' +funcionario +
+                          '<br/>Salario = ' +salario +
+                         '<br/>Imposto = ' +imposto +
+                         '<br/>Salário Liquido = ' +(salario - imposto);
+
+            document.getElementById("resposta").innerHTML =  mensagem;
+
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Calculo de Salário</h1>
+        <label>Funcionário</label><br/>
+        <input type="text" id="nomeFuncionario" /><br/><br/>
+
+        <label>Salário:</label><br/>
+        <input type="text" id="salario" /><br/><br/>
+
+        <button onclick="calcular();">Calcular</button><br/><br/>
+
+        <div id="resposta"><div><br/>
+        
+    </div>
+</body>
+</html>
