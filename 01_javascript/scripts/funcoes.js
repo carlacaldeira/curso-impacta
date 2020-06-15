@@ -35,3 +35,5 @@ function CalcularSoma(){
     //forma3 -
     document.getElementById("resposta").innerHTML = 'Soma = ' +soma;
 }
+
+
