@@ -1,0 +1,31 @@
+{
+  "contatos": [
+    {
+      "nome": "Jose Maria Souza",
+      "email": "jose@mail.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Daniela",
+      "email": "daniela@mail.com"
+    },
+    {
+      "nome": "Antonio Carlos",
+      "email": "antonio@mail.com",
+      "id": 3
+    },
+    {
+      "nome": "Ana Maria",
+      "email": "maria@mail.com",
+      "id": 4
+    }
+  ],
+  "meusdados": [
+    {
+      "id": 1,
+      "cpf": "12090698730",
+      "cargo": "programador pleno"
+    }
+  ]
+}

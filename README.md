@@ -9,3 +9,10 @@ Scripts das aulas iniciadas em 10/06/2020
 
 15/6/2020: Objetos do Javascript. Conceitos de prototype. Exercícios. Criando módulos no Node.js. Usando o
 Node.js como servidor de aplicações. 
+
+16/06/2020: Projetos baseados no Node.js. O arquivo package.json como servidor de aplicações. 
+
+17/06/2020: O conceito de webservices REST. Criando serviços com o Node.js e o Express.js. Exercícios. Instalando o Angular CLI. Criando projetos Angular com Angular CLI. Conhecendo a estrutura de um projeto no Angular. Asintaxe do Typescript. Exercícios. 
+
+18/06/2020| 09h-18h: Conhecendo os módulos e os componentes. O conceito de interpolação. Formulários. Property
+Bindings e Event Bindings. Two-way Data Binding. Elaboração de um projeto (Hands-On)

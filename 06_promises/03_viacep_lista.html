@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Endereço</title>
+</head>
+<body>
+    <div>
+        <span>CEP:</span><br/>
+        <input type="text" name="" id="cep"><br/><br/>
+
+        <button id="mostrarEndereco">Mostrar</button><br/>
+
+        <span>Logradouro:</span><br/>
+        <input type="text" name="" id="logradouro"><br/>
+        <span>Localidade:</span><br/>
+        <input type="text" name="" id="localidade"><br/>
+     
+
+        <input type="radio" value="cidade" name="pesquisa">Cidade
+        <input type="radio" value="bairro" name="pesquisa">Bairro
+        <input type="radio" value="estado" name="pesquisa">Estado
+        <input type="radio" value="cep" name="pesquisa">CEP
+        <br/><br/>
+        <input type="text" name="" id="busca"/><br/><br/>
+        <button id="mostrarDados">Pesquisar</button><br/>
+
+        <div id="resposta"></div>
+    </div>
+    <script src="03_viacep_lista.js"></script>
+</body>
+</html>
